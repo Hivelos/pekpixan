@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenamiento Canino</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Entrenamiento Canino</h1>
+        <nav>
+            <ul>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <p>Ofrecemos entrenamiento básico y avanzado para tu mascota.</p>
+            <button id="infoBtn">Más Información</button>
+            <div id="info" class="hidden">
+                <p>Entrenamiento en obediencia, socialización y resolución de problemas de comportamiento.</p>
+            </div>
+        </section>
+
+        <section id="testimonios">
+            <h2>Testimonios</h2>
+            <blockquote>"¡Mi perro es un nuevo canino gracias a este entrenamiento!" - Juan P.</blockquote>
+            <blockquote>"Excelente servicio y atención al cliente." - María G.</blockquote>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contactForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Entrenamiento Canino</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
