@@ -1,34 +1,35 @@
-body {
+body, head {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+		;
+    background-color: black;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-}
+    background-color: black;
+    } 
+.flex-parent {
+             display: flex;
+						 padding:1m ;
+						 width;90%;
+						 align: center;
+     }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
+    
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
+    }		 
+.flex-child{
+             display: 1;
+             
+						 padding: 00px;
+						 border: 1px dotted red;
+						 text-align: center;
+						 font-size: 50px;
+     }
+ 
 
-h2 {
-    color: #4CAF50;
-}
-
-main {
-    padding: 20px;
-}
-
+		 
 .hidden {
     display: none;
 }
@@ -40,3 +41,100 @@ footer {
     color: white;
 }
 
+img {
+     margin: 0;
+		 text-align: center; 
+     height: 10%;
+     width:80%;
+}
+
+p{
+   margin-top: 0em;
+   padding: 0px 5px 0px 15px;
+	 font-size: 25px;
+	 font-weight:1000;
+	 color: white;
+	 
+}
+
+hr {   
+				top: 20px; 
+        height: 20px;
+				margin-rigth:0;
+        margin-bottom: 10px;
+				margin-left:100px;
+        background-color:rgb(26, 188, 156) ;
+				width: 500px;
+   }
+
+	 .subt {
+	      high: 150px;
+	      text-align: center;
+	      width: 350px;
+				
+				margin-left: 150px;
+				}
+	 .marco{
+	         margin: 0 15% 3% 8%;
+	         border-color: 1px solid white;
+					 eight: 100px;
+					
+					 }
+	 .circulo {
+      width: 40px;
+      height: 40px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      background: red;
+			border-color: solid  2px;black
+			margin-top: 80px;
+			margin-left: -20px;
+    }
+	 
+	  .circulo2 {
+      width: 40px;
+      height: 40px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      background:  rgb(26, 188, 156) ;
+			border-color: solid  2px;black
+			margin-top: 80px;
+			margin-left: -20px;
+    }
+	 
+	 
+	 
+	 ul{
+	      padding: 0 5% 3% 20%;
+	      margin-left: 100px;
+		    border: dotted;
+				width: 200px;
+		 }
+	ul li{
+	    
+	    margin: 5px 0 10px 0px;
+			color: white;
+			font-weight:1000;
+	 }
+/* Estilos redes sociales */
+
+ .social-icons {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+        .social-icons li {
+            display: inline;
+        }
+        .social-icons a {
+            text-decoration: none;
+            color: #000; /* Cambia el color según tu diseño */
+            font-size: 24px; /* Tamaño del icono */
+        }
+        .social-icons a:hover {
+            color: #0073e6; /* Color al pasar el ratón */
+        }
+/* Fin de estilos para redes*/
