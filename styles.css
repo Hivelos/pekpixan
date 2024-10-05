@@ -2,31 +2,54 @@ body, head {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-		;
-    background-color: black;
+		background-color: rgb(20, 1, 1);
 }
 
 header {
     background-color: black;
-    } 
+} 
+
+.contenedor{
+            display: flex;
+            width: 80%;
+            height: 80%;
+            border: dotted;
+}
+
+div {
+  width: 55%;
+  text-align: center;
+  display: flex;
+  margin-left: 0%;
+}
+
+hr{
+
+  display: inline;
+  box-align: left;
+  height: 20px;
+  width: 100%;
+  background-color: aqua;
+  padding: 0;
+}
+
+
+
 .flex-parent {
              display: flex;
 						 padding:1m ;
-						 width;90%;
-						 align: center;
-     }
+						 width:90%;
+						 box-align: center;
+}
 
-    
-
-    }		 
-.flex-child{
+.flex-child {
              display: 1;
              
 						 padding: 00px;
-						 border: 1px dotted red;
+						 border: 1px dotted green;
 						 text-align: center;
 						 font-size: 50px;
-     }
+}
  
 
 		 
@@ -48,7 +71,7 @@ img {
      width:80%;
 }
 
-p{
+p {
    margin-top: 0em;
    padding: 0px 5px 0px 15px;
 	 font-size: 25px;
@@ -58,66 +81,60 @@ p{
 }
 
 hr {   
-				top: 20px; 
-        height: 20px;
-				margin-rigth:0;
-        margin-bottom: 10px;
-				margin-left:100px;
-        background-color:rgb(26, 188, 156) ;
-				width: 500px;
-   }
+	top: 20px; 
+  height: 20px;
+	margin-right:0;
+  background-color:rgb(26, 188, 156);
+	width: 100%;
+        
+}
 
-	 .subt {
-	      high: 150px;
+.subt {
+	      height: 150px;
 	      text-align: center;
 	      width: 350px;
 				
 				margin-left: 150px;
-				}
-	 .marco{
-	         margin: 0 15% 3% 8%;
-	         border-color: 1px solid white;
-					 eight: 100px;
-					
-					 }
-	 .circulo {
+}
+	
+.circulo {
       width: 40px;
       height: 40px;
       -webkit-border-radius: 25px;
       -moz-border-radius: 25px;
       border-radius: 25px;
-      background: red;
-			border-color: solid  2px;black
-			margin-top: 80px;
+      background: rgb(216, 23, 9);
+			border-color: solid  2px;
 			margin-left: -20px;
-    }
+}
 	 
-	  .circulo2 {
+.circulo2 {
       width: 40px;
       height: 40px;
       -webkit-border-radius: 25px;
       -moz-border-radius: 25px;
       border-radius: 25px;
       background:  rgb(26, 188, 156) ;
-			border-color: solid  2px;black
-			margin-top: 80px;
+			border-color: solid  2pxblack;
+			
 			margin-left: -20px;
-    }
+}
 	 
 	 
 	 
-	 ul{
+ul{
 	      padding: 0 5% 3% 20%;
 	      margin-left: 100px;
-		    border: dotted;
-				width: 200px;
-		 }
-	ul li{
+		    border: none;
+				width: 300px;
+}
+
+ul li{
 	    
 	    margin: 5px 0 10px 0px;
-			color: white;
+			color: rgba(255, 255, 255, 0.904);
 			font-weight:1000;
-	 }
+}
 /* Estilos redes sociales */
 
  .social-icons {
@@ -131,10 +148,10 @@ hr {
         }
         .social-icons a {
             text-decoration: none;
-            color: #000; /* Cambia el color según tu diseño */
-            font-size: 24px; /* Tamaño del icono */
+            color: #fdfafa4f; /* Cambia el color segï¿½n tu diseï¿½o */
+            font-size: 24px; /* Tamaï¿½o del icono */
         }
         .social-icons a:hover {
-            color: #0073e6; /* Color al pasar el ratón */
+            color: #0073e6; /* Color al pasar el ratï¿½n */
         }
 /* Fin de estilos para redes*/
