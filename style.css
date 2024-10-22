@@ -48,8 +48,23 @@ hr{
       -moz-border-radius: 25px;
       border-radius: 50%;
       background:red;
-      margin-left: -20px;
+      margin-left: 3px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
 }
+.circulo_pequeño{
+    width:  20px;
+    height: 20px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 50%;
+    background: black ;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
 ul li{
     font-size: 2rem;
     color: white;
