@@ -48,6 +48,7 @@ hr{
       -moz-border-radius: 25px;
       border-radius: 50%;
       background:red;
+      margin-left: -20px;
       margin-left: 3px;
       display:flex;
       justify-content: center;
